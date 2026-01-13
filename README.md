@@ -1,26 +1,29 @@
 # SQL Employee–Department Analytics
 
 ## Overview
-This project demonstrates relational database design and SQL querying using SQL Server.
-It models employees and departments and produces analytical reports using joins, filtering,
-ordering, and aggregation.
+This project demonstrates enterprise-style relational database design and SQL analytics
+using realistic employee and department datasets.
 
-## Database Design
-- EMP_DETAILS: Stores employee information
-- DEP_DETAILS: Stores department information
-- Primary and foreign key relationships enforce data integrity
+The focus is on:
+- Join operations
+- Filtering and ordering
+- Aggregation using GROUP BY and COUNT
+- Foreign key relationships
+
+## Schema
+- EMP_DETAILS: Stores detailed employee data including role, salary, department, and location
+- DEP_DETAILS: Stores department metadata including manager, budget, and location
 
 ## Key Queries
-- Employee and department reporting using INNER JOIN
-- Employees hired in or after a specific year
-- Employees filtered by department manager
-- Department-wise employee counts using GROUP BY and COUNT
+- Employee & department reporting
+- Hiring trends analysis
+- Manager-based employee filtering
+- Department-wise employee counts
 
 ## Technologies
-- SQL Server
-- T-SQL
+- SQL Server (T-SQL)
 - Relational Database Design
+- Data Analytics Foundations
 
 ## Purpose
-Built as hands-on SQL practice focused on data engineering fundamentals, including
-joins, aggregation, and query structuring best practices.
+Built as hands-on SQL practice aligned with real-world data engineering workflows.
